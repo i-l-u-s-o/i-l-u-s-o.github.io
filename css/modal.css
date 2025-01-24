@@ -9,7 +9,8 @@
   width: 100%;
   height: 100%;
   z-index: 80;
-  display: -webkit-box;
+display: none !important;
+ display: -webkit-box;
    display: -moz-box;
    display: -ms-flexbox;
    display: -webkit-flex;
