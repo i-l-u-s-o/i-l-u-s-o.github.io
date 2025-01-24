@@ -2,8 +2,13 @@
   background-color: #f00;
 }*/
 
+.info-container, .edito-container {
+  display: none;
+}
+
 #info-container {
-  position: fixed;
+display: none;  
+position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -25,7 +30,8 @@
 }
 
 #info-container.hidden {
-  height: 40px;
+	display: none; 
+ height: 40px;
   padding: 0px;
   pointer-events: none;
 
