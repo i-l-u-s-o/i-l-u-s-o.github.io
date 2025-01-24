@@ -108,6 +108,8 @@ a:hover {
   height: 100%;
   /* position: fixed; */
 
+  display: none; /*---------------- Added recently ----------------------------*/
+  
   position: absolute;
   /* padding: 20px;  */
 }
