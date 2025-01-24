@@ -17,7 +17,16 @@ position: fixed;
   width: 100%;
   height: 100%;
   z-index: 80;
+<<<<<<< HEAD
   display: none;
+=======
+display: none !important;
+ display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+>>>>>>> parent of 4889421 (CSS update)
    align-items: center;
    justify-content: center;
 
@@ -26,6 +35,9 @@ position: fixed;
  -o-transition: height 1s;
  transition: height 1s;
  font-family: 'Chivo', sans-serif;
+
+
+
 }
 
 #info-container.hidden {
@@ -33,7 +45,12 @@ position: fixed;
  height: 40px;
   padding: 0px;
   pointer-events: none;
+<<<<<<< HEAD
   display: none;
+=======
+	display: none !important;
+
+>>>>>>> parent of 4889421 (CSS update)
 }
 
 #modal {
@@ -75,6 +92,8 @@ transition: width 1s;
   background: rgba(0, 0, 0, 0);
   border: 0px;
   pointer-events: none;
+display: none !important;
+
 }
 
 .hidden > #modal > #modal-header {
@@ -93,6 +112,7 @@ transition: width 1s;
    display: -webkit-flex;
    display: flex;
      justify-content: space-between;
+display: none !important;
 
 }
 
