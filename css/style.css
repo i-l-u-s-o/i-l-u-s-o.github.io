@@ -72,7 +72,7 @@ a:hover {
   width: calc(100% - 60px);
   height: calc(100% - 60px);
 
-  display: none;
+  display: none; /*Added recently*/
 }
 
 .console {
