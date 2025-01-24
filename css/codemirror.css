@@ -6,9 +6,10 @@
   height: 300px;
   color: black;
   direction: ltr;
-    visibility: hidden;
+  
+  visibility: hidden;
   opacity: 0;
-   display: none;
+  display: none;
   
 }
 
