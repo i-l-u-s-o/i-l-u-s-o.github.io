@@ -17,6 +17,9 @@
   color: #cccccc;
   font-size: 18px;
   height: 100%;
+    
+  display: none; /*ADDED*/
+    
 }
 .cm-s-tomorrow-night-eighties span span.CodeMirror-selectedtext {
   background: #666666;
