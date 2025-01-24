@@ -9,11 +9,8 @@
   width: 100%;
   height: 100%;
   z-index: 80;
-  display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -webkit-flex;
-   display: flex;
+   display: none; /*---------------- Added recently ----------------------------*/
+  
    align-items: center;
    justify-content: center;
 
