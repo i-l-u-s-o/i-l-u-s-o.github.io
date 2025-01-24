@@ -32,6 +32,7 @@ display: none !important;
   height: 40px;
   padding: 0px;
   pointer-events: none;
+	display: none !important;
 
 }
 
@@ -74,6 +75,8 @@ transition: width 1s;
   background: rgba(0, 0, 0, 0);
   border: 0px;
   pointer-events: none;
+display: none !important;
+
 }
 
 .hidden > #modal > #modal-header {
@@ -92,6 +95,7 @@ transition: width 1s;
    display: -webkit-flex;
    display: flex;
      justify-content: space-between;
+display: none !important;
 
 }
 
