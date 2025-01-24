@@ -74,7 +74,7 @@ transition: width 1s;
 
 #modal-header {
   width: 100%;
-  /* height: 40px; */
+  display: none; /*---------------- Added recently ----------------------------*/ 
   border: 1px solid white;
   margin: 0px;
   display: -webkit-box;
