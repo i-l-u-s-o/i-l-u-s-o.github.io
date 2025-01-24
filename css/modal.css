@@ -22,6 +22,9 @@
  -o-transition: height 1s;
  transition: height 1s;
  font-family: 'Chivo', sans-serif;
+
+
+
 }
 
 #info-container.hidden {
