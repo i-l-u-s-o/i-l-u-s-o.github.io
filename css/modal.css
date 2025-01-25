@@ -9,8 +9,11 @@
   width: 100%;
   height: 100%;
   z-index: 80;
-  display: none; /*---------------- Added recently ----------------------------*/ 
- 
+  display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
    align-items: center;
    justify-content: center;
 
@@ -22,36 +25,69 @@
 }
 
 #info-container.hidden {
-  display: none; /*---------------- Added recently ----------------------------*/
+  height: 40px;
+  padding: 0px;
+  pointer-events: none;
 
 }
 
 #modal {
-
- display: none; /*---------------- Added recently ----------------------------*/
-    
+  width: 70%;
+  height: 70%;
+  min-width: 800px;
+  min-height: 300px;
+  background: rgba(0, 0, 0, 1);
+  border: 1px solid white;
+  padding: 0px;
+  margin: 0px;
+  display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+    flex-flow: column;
+     -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+  -webkit-transition: width 1s;
+-moz-transition: width 1s;
+-o-transition: width 1s;
+transition: width 1s;
 }
 
 @media (max-width: 768px) {
   #modal {
-     display: none; /*---------------- Added recently ----------------------------*/ 
-  
+    width: 100%;
+    min-width: 0px;
   }
 
 }
 
 .hidden > #modal {
-   display: none; /*---------------- Added recently ----------------------------*/ 
-
+  width: 100%;
+  min-height: 0px;
+  background: rgba(0, 0, 0, 0);
+  border: 0px;
+  pointer-events: none;
 }
 
 .hidden > #modal > #modal-header {
-   display: none; /*---------------- Added recently ----------------------------*/ 
-
+  border: 0px;
+  pointer-events: none;
 }
 
 #modal-header {
-  display: none; /*---------------- Added recently ----------------------------*/ 
+  width: 100%;
+  /* height: 40px; */
+  border: 1px solid white;
+  margin: 0px;
+  display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+     justify-content: space-between;
 
 }
 
