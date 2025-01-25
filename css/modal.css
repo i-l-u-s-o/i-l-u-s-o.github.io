@@ -23,35 +23,51 @@
 
 #info-container.hidden {
   display: none; /*---------------- Added recently ----------------------------*/
-
+  visibility: hidden;
 }
 
 #modal {
 
  display: none; /*---------------- Added recently ----------------------------*/
     
+transition: width 1s;
 }
 
 @media (max-width: 768px) {
   #modal {
      display: none; /*---------------- Added recently ----------------------------*/ 
-  
+    width: 100%;
+    min-width: 0px;
   }
 
 }
 
 .hidden > #modal {
    display: none; /*---------------- Added recently ----------------------------*/ 
-
+  width: 100%;
+  min-height: 0px;
+  background: rgba(0, 0, 0, 0);
+  border: 0px;
+  pointer-events: none;
 }
 
 .hidden > #modal > #modal-header {
    display: none; /*---------------- Added recently ----------------------------*/ 
-
+  border: 0px;
+  pointer-events: none;
 }
 
 #modal-header {
+  width: 100%;
   display: none; /*---------------- Added recently ----------------------------*/ 
+  border: 1px solid white;
+  margin: 0px;
+  display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+     justify-content: space-between;
 
 }
 
