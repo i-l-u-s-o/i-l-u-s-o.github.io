@@ -23,7 +23,7 @@
 
 #info-container.hidden {
   height: 40px;
-  padding: 0px;
+  padding: 20px;
   pointer-events: none;
   display: none; /*---------------- Added recently ----------------------------*/
 }
