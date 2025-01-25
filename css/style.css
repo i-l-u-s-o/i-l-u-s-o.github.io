@@ -112,4 +112,9 @@ a:hover {
   
   position: absolute;
   /* padding: 20px;  */
+
+#info-container {
+  display: none !important;
+}
+  
 }
