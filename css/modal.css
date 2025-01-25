@@ -25,9 +25,8 @@
 }
 
 #info-container.hidden {
-  height: 40px;
-  padding: 0px;
-  pointer-events: none;
+  
+  display:none; /*-----------------------------------------------------------------*/
 
 }
 
